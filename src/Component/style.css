@@ -1,0 +1,23 @@
+.AddProduct{
+    background-color: antiquewhite;
+    width: 50%;
+    display: inline-block;
+    min-height: 300px;
+    padding: 2rem 4rem;
+    margin: 40px;
+}
+.AddProduct input{
+    width: 50%;
+    padding: 5px 10px;
+    display: flex-end;
+    border-style: groove;
+}
+.AddProduct button{
+    background-color: cornflowerblue;
+    height: 2rem;
+    width: 20%;
+    cursor: pointer;
+}
+.desc{
+    height: 50px;
+}
