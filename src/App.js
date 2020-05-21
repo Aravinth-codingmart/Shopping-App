@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       <nav className="App-header">
         <ul>
-          <li><a href="https://aravinth-thunder.github.io/Shopping-App/#/homepage"><button>Home Page</button></a></li>
-          <li><a href="https://aravinth-thunder.github.io/Shopping-App/#/admin"><button>Admin</button></a></li>
+          <li><a href="https://aravinth-codingmart.github.io/Shopping-App/#/homepage"><button>Home Page</button></a></li>
+          <li><a href="https://aravinth-codingmart.github.io/Shopping-App/#/admin"><button>Admin</button></a></li>
         </ul>
       </nav>
       <HashRouter basename='/'>
