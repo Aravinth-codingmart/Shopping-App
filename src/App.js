@@ -6,15 +6,15 @@ import AddingProduct from './Component/AddingProduct';
 function App() {
   return (
     <div className="App">
-      <nav>
+      <nav className="App-header">
         <ul>
-          <li><button>Home Page</button></li>
-          <li><button>Admin</button></li>
+          <li><a href="http://localhost:3000/Shopping-App#/homepage"><button>Home Page</button></a></li>
+          <li><a href="http://localhost:3000/Shopping-App#/admin"><button>Admin</button></a></li>
         </ul>
       </nav>
-      <AddingProduct></AddingProduct>
       <HashRouter basename='/'>
       <Route path="/homepage" component={Products}></Route>
+      <Route path="/admin" component={AddingProduct}></Route>
       </HashRouter>
     </div>
   );

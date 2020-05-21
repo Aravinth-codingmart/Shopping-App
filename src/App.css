@@ -1,20 +1,18 @@
 .App {
   text-align: center;
 }
-nav ul{
-  align-self: flex-end;
-  list-style-type: none;
-  display: flex;
-}
-nav ul li{
-  padding:5px 20px;
-  cursor: pointer;
-}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+nav a button{
+  background-color: black;
+  color: white;
+  border: 0px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -22,8 +20,7 @@ nav ul li{
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: grey;
   display: flex;
   flex-direction: column;
   align-items: center;

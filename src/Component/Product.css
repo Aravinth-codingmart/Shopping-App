@@ -1,0 +1,41 @@
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+.footer {
+	position: relative;
+	left: 10;
+	bottom: 0;
+	padding: 10px;
+}
+.card {
+    padding: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 40%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: arial;
+}  
+.card button:hover {
+    opacity: 0.7;
+}
+.card img{
+    width: 170px;
+}
+.card-horizontal {
+   display: flex;
+   flex: 1 1 auto;
+}
+div.card-body{
+    padding: 5px 10px;
+}
+div.card-body p{
+    text-align: left;	
+}
